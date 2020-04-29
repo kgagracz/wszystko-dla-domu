@@ -1,0 +1,15 @@
+#offer {
+    background-color: #5559AB;
+    height: 100vh;
+    .offer-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        .offer-item-heading {
+            display: block;
+            position: absolute;
+            z-index: 10;
+        }
+    }
+}

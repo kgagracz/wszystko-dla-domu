@@ -1,0 +1,47 @@
+.navbar {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  background-color: #9f148e;
+  opacity: 0.8;
+  position: sticky; }
+  .navbar .nav-item {
+    height: 100%;
+    transition: all 0.5s;
+    border-radius: 6px;
+    width: 150px;
+    text-align: center; }
+    .navbar .nav-item .nav-link {
+      color: #fff; }
+  .navbar .nav-item:hover {
+    background-color: #99d320;
+    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
+  .navbar #main-logo {
+    object-fit: contain;
+    width: 70%; }
+  .navbar .img-container {
+    background-color: #a05bb5;
+    padding: 10px;
+    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
+  .navbar .brand {
+    height: 60px;
+    width: auto;
+    margin: 0 10px; }
+
+#hero {
+  height: 100vh;
+  background-image: url("../img/hero.jpg"); }
+
+#offer {
+  background-color: #5559AB;
+  height: 100vh; }
+  #offer .offer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; }
+    #offer .offer-item .offer-item-heading {
+      display: block;
+      position: absolute;
+      z-index: 10; }
