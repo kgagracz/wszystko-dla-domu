@@ -23,19 +23,33 @@
   .navbar .img-container {
     background-color: #a05bb5;
     padding: 10px;
-    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
+    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .navbar .brand {
-    height: 60px;
+    height: 100%;
     width: auto;
     margin: 0 10px; }
+
+@media (max-width: 1350px) {
+  .navbar .nav-item {
+    font-size: 1.1rem;
+    padding: 10px; }
+  .navbar .brand {
+    height: 60%; } }
+
+@media (max-width: 330px) {
+  .navbar-brand {
+    width: 50%; } }
 
 #hero {
   height: 100vh;
   background-image: url("../img/hero.jpg"); }
 
 #offer {
-  background-color: #5559AB;
-  height: 100vh; }
+  background-color: #5559AB; }
   #offer .offer-item {
     display: flex;
     justify-content: center;
