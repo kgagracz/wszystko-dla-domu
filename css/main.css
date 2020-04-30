@@ -1,11 +1,12 @@
 .navbar {
   height: 100vh;
+  width: 100%;
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
   background-color: #9f148e;
-  opacity: 0.8;
-  position: sticky; }
+  opacity: .95;
+  position: fixed !important; }
   .navbar .nav-item {
     height: 100%;
     transition: all 0.5s;
@@ -47,6 +48,20 @@
 #hero {
   height: 100vh;
   background-image: url("../img/hero.jpg"); }
+  #hero .heading-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #hero .heading-container .heading-container-inner {
+      color: white;
+      text-align: center;
+      height: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      background-color: #9ad3206e; }
 
 #offer {
   background-color: #5559AB; }

@@ -11,6 +11,11 @@ navigationTimeline
     targets: '.navbar-nav',
     translateX: [-700, 0],
     duration: 500
+});
+
+anime({
+    targets: '.navbar',
+    opacity: 0.8,
+    delay: 700,
+    duration: 2000,
 })
-
-

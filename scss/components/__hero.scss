@@ -3,4 +3,20 @@
 #hero {
     height: 100vh;
     background-image: url('../img/hero.jpg');
+    .heading-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .heading-container-inner {
+            color: white;
+            text-align: center;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            background-color: #9ad3206e;
+        }
+    }
 }
