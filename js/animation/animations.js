@@ -19,19 +19,3 @@ anime({
     delay: 700,
     duration: 2000,
 })
-
-//offer 
-let offerItem = document.getElementsByClassName('offer-item');
-
-for(i = 0; i < offerItem.length; i++) {
-
-    offerItem[i].addEventListener('click', function () {
-        console.log('click');
-        let offerCollapse = anime({
-            targets: offerItem[i],
-            width: '100%',
-        })
-
-        
-    })
-}
