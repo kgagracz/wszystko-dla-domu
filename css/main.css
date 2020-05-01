@@ -65,12 +65,46 @@
 
 #offer {
   background-color: #5559AB; }
+  #offer .offer-heading {
+    text-align: center;
+    color: #99d320;
+    padding: 20px; }
+  #offer .container-fluid {
+    margin: 0; }
   #offer .offer-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px; }
+    background-color: #99d320;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
     #offer .offer-item .offer-item-heading {
       display: block;
       position: absolute;
       z-index: 10; }
+  #offer .offer-item:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #9f148e;
+    border-left: 3px solid #9f148e;
+    transition: .2s; }
+  #offer .offer-item:after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    border-bottom: 3px solid #9f148e;
+    border-right: 3px solid #9f148e;
+    transition: .2s; }
+  #offer .offer-item:hover:before,
+  #offer .offer-item:hover:after {
+    transform: scale(1.7); }
