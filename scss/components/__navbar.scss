@@ -6,9 +6,10 @@
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
-    background-color: #9f148fe1;
+    background-color: $primary-color;
     box-shadow: $shadow;
-    opacity: 0.5;
+    position: sticky;
+    z-index: 10;
 
 
     .nav-item  {
@@ -30,6 +31,7 @@
     #main-logo {
         object-fit: contain;
         width: 70%;
+        margin-left: 20px;
     }
     .img-container { 
         background-color: rgb(160, 91, 181);
@@ -63,6 +65,18 @@
         }
     }
         
+}
+
+@media (max-width: 995px) { 
+    .navbar {
+        
+        .nav-item {
+            background-color: $primary-color;
+        }
+        .img-container {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 330px) {

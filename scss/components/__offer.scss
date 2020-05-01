@@ -1,23 +1,37 @@
 @import "../_variables";
 
 #offer {
-    background-color: #5559AB;
     min-height: 100vh;
     .offer-heading {
+
         text-align: center;
-        color: $secondary-color;
+        color: #000;
         padding: 20px;
         width: 100%;
-        background-color: $primary-color;
+        background-color: rgb(182, 179, 179);
         box-shadow: $shadow
     }
     .offer-item {
-        background-color: #000;
+        color: white;
+        text-decoration: none;
+        background-color: $darkgreen-color;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 60px;
+        margin-top: 10px;
+        box-shadow: $shadow;
+        .offer-item-heading {
+            text-transform: uppercase;
+        }
+    }
+    .offer-list-container {
+        background-color: $secondary-color;
+        box-shadow: $shadow;
+        .offer-extended {
+            padding: 20px;
+        }
     }
     
 
