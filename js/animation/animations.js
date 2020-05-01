@@ -11,11 +11,16 @@ navigationTimeline
     targets: '.navbar-nav',
     translateX: [-700, 0],
     duration: 500
+})
+.add({
+    targets: '.img-container',
+    opacity: 1,
+    duration: 1500,
 });
-
 anime({
     targets: '.navbar',
-    opacity: 0.7,
+    opacity: 1,
     delay: 700,
     duration: 2000,
-})
+});
+
