@@ -1,12 +1,17 @@
 #offer {
     background-color: #5559AB;
+    min-height: 100vh;
     .offer-heading {
         text-align: center;
         color: $secondary-color;
         padding: 20px;
+        width: 100%;
+        background-color: $primary-color;
     }
     .container-fluid {
         margin: 0;
+        padding: 50px;
+        height: 100%;
     }
     .offer-item {
         display: flex;
@@ -22,6 +27,7 @@
             display: block;
             position: absolute;
             z-index: 10;
+            text-align: center;
         }
     }
     .offer-item:before {

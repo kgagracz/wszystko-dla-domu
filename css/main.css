@@ -4,18 +4,18 @@
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
-  background-color: #9f148e;
-  opacity: .95;
-  position: fixed !important; }
+  background-color: #9f148fe1; }
   .navbar .nav-item {
     height: 100%;
     transition: all 0.5s;
     border-radius: 6px;
     width: 150px;
     text-align: center; }
-    .navbar .nav-item .nav-link {
-      color: #fff; }
+    .navbar .nav-item a.nav-link {
+      color: #fff;
+      transition: all .5s; }
   .navbar .nav-item:hover {
+    color: #000;
     background-color: #99d320;
     box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
   .navbar #main-logo {
@@ -37,12 +37,12 @@
 @media (max-width: 1350px) {
   .navbar .nav-item {
     font-size: 1.1rem;
-    padding: 10px; }
+    width: 100px; }
   .navbar .brand {
     height: 60%; } }
 
 @media (max-width: 330px) {
-  .navbar-brand {
+  .navbar .navbar-brand {
     width: 50%; } }
 
 #hero {
@@ -64,13 +64,18 @@
       background-color: #9ad3206e; }
 
 #offer {
-  background-color: #5559AB; }
+  background-color: #5559AB;
+  min-height: 100vh; }
   #offer .offer-heading {
     text-align: center;
     color: #99d320;
-    padding: 20px; }
+    padding: 20px;
+    width: 100%;
+    background-color: #9f148e; }
   #offer .container-fluid {
-    margin: 0; }
+    margin: 0;
+    padding: 50px;
+    height: 100%; }
   #offer .offer-item {
     display: flex;
     justify-content: center;
@@ -84,7 +89,8 @@
     #offer .offer-item .offer-item-heading {
       display: block;
       position: absolute;
-      z-index: 10; }
+      z-index: 10;
+      text-align: center; }
   #offer .offer-item:before {
     content: '';
     position: absolute;

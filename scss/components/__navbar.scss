@@ -6,9 +6,7 @@
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
-    background-color: $primary-color;
-    opacity: .95;
-    position: fixed!important;
+    background-color: #9f148fe1;
 
 
     .nav-item  {
@@ -17,11 +15,13 @@
         border-radius: 6px;
         width: 150px;
         text-align: center;
-        .nav-link {
+        a.nav-link {
             color: #fff;
+            transition: all .5s;
         }
     }
     .nav-item:hover {
+        color: #000;
         background-color: $secondary-color;
         box-shadow: 6px 7px 24px -6px rgba(0,0,0,0.75);
     }
@@ -49,17 +49,25 @@
 
 
 @media (max-width: 1350px) {
-    .navbar .nav-item {
-        font-size: 1.1rem;
-        padding: 10px;
+    .navbar {
+    
+        .nav-item {
+            font-size: 1.1rem;
+            width: 100px;
+        }
+         .brand {
+            height: 60%;
+        }
     }
-    .navbar .brand {
-        height: 60%;
-    }
+        
 }
 
 @media (max-width: 330px) {
-    .navbar-brand {
-        width: 50%;
+    
+    .navbar {
+        
+        .navbar-brand {
+            width: 50%;
+        }
     }
 }
