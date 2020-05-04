@@ -1,0 +1,13 @@
+@import "../_variables";
+
+#contact {
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -5px 1rem -5px;
+    }
+    .btn {
+        width: 30%;
+    }
+}

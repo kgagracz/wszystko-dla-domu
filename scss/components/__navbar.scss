@@ -69,9 +69,12 @@
 
 @media (max-width: 995px) { 
     .navbar {
-        
+        .navbar-toggler {
+            margin-left: 10px;
+        }
         .nav-item {
             background-color: $primary-color;
+            margin: 2px;
         }
         .img-container {
             display: none;
