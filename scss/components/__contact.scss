@@ -2,6 +2,36 @@
 
 #contact {
 
+    .address-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 9px;
+        .address {
+            background-color: rgb(200, 200, 200);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            p {
+                margin: 0;
+            }
+            .phone-icon {
+                margin: 0 5px 0 0;
+            }
+            .phone-link {
+                width: 100%;
+            }
+        }
+        .map {
+            border: none;
+            padding: 0;
+            height: 100%;
+
+        }
+    }
+
+
     .form-row {
         display: flex;
         justify-content: space-between;
@@ -9,5 +39,6 @@
     }
     .btn {
         width: 30%;
+        box-shadow: $shadow;
     }
 }

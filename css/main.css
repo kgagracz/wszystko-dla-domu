@@ -4,8 +4,19 @@
   padding: 20px;
   margin-bottom: 20px;
   width: 100%;
-  background-color: #b6b3b3;
-  box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
+  background-color: #c7c7c7;
+  box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75);
+  font-size: 1.5rem; }
+
+.item-heading {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin: 0; }
+
+@media (max-width: 768px) {
+  .item-heading,
+  .section-heading {
+    font-size: 1.1rem; } }
 
 .navbar {
   height: 100vh;
@@ -72,6 +83,8 @@
   min-height: 100vh;
   background: #39332c;
   background: radial-gradient(circle, #39332c 0%, rgba(108, 50, 112, 0.686712) 0%, #5f6caf 100%); }
+  #offer .offer-container {
+    margin-top: 10px; }
   #offer .offer-item {
     color: white;
     text-decoration: none;
@@ -81,15 +94,34 @@
     align-items: center;
     justify-content: center;
     height: 60px;
-    margin-top: 10px;
     box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
-    #offer .offer-item .offer-item-heading {
-      text-transform: uppercase; }
   #offer .offer-list-container {
     background-color: #99d320;
     box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
     #offer .offer-list-container .offer-extended {
       padding: 20px; }
+
+#contact .address-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 9px; }
+  #contact .address-container .address {
+    background-color: #c8c8c8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; }
+    #contact .address-container .address p {
+      margin: 0; }
+    #contact .address-container .address .phone-icon {
+      margin: 0 5px 0 0; }
+    #contact .address-container .address .phone-link {
+      width: 100%; }
+  #contact .address-container .map {
+    border: none;
+    padding: 0;
+    height: 100%; }
 
 #contact .form-row {
   display: flex;
@@ -97,7 +129,8 @@
   margin: 0 -5px 1rem -5px; }
 
 #contact .btn {
-  width: 30%; }
+  width: 30%;
+  box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
 
 #main_footer {
   background-color: rgba(0, 0, 0, 0.048); }

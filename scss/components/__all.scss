@@ -6,6 +6,20 @@
     padding: 20px;
     margin-bottom: 20px;
     width: 100%;
-    background-color: rgb(182, 179, 179);
-    box-shadow: $shadow
+    background-color: rgb(199, 199, 199);
+    box-shadow: $shadow;
+    font-size: 1.5rem;
+}
+
+.item-heading {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) { 
+    .item-heading,
+    .section-heading {
+        font-size: 1.1rem;
+    }
 }
