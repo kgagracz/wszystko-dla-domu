@@ -94,7 +94,28 @@
     align-items: center;
     justify-content: center;
     height: 60px;
-    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
+    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75);
+    position: relative; }
+  #offer .offer-item::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    height: 70%;
+    border-left: 3px solid #8f1380;
+    transition: .2s; }
+  #offer .offer-item::after {
+    content: "";
+    position: absolute;
+    right: 7px;
+    height: 70%;
+    border-right: 3px solid #8f1380;
+    transition: .2s; }
+  #offer .offer-item:hover::before {
+    transform: scale(2);
+    left: -10px; }
+  #offer .offer-item:hover::after {
+    transform: scale(2);
+    right: -10px; }
   #offer .offer-list-container {
     background-color: #99d320;
     box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
