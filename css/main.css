@@ -102,6 +102,7 @@
     left: 7px;
     height: 70%;
     border-left: 3px solid #8f1380;
+    border-radius: 25%;
     transition: .2s; }
   #offer .offer-item::after {
     content: "";
@@ -109,6 +110,7 @@
     right: 7px;
     height: 70%;
     border-right: 3px solid #8f1380;
+    border-radius: 25%;
     transition: .2s; }
   #offer .offer-item:hover::before {
     transform: scale(2);

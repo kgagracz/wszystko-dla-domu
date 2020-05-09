@@ -25,6 +25,7 @@
         left: 7px;
         height: 70%;
         border-left: 3px solid $primary-color;
+        border-radius: 25%;
         transition: .2s;
     }
     .offer-item::after {
@@ -33,6 +34,7 @@
         right: 7px;
         height: 70%;
         border-right: 3px solid $primary-color;
+        border-radius: 25%;
         transition: .2s;
     }
     .offer-item:hover::before{
