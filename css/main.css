@@ -13,6 +13,46 @@
   font-size: 1.3rem;
   margin: 0; }
 
+.contact-fixed {
+  background-color: #99d320;
+  position: fixed;
+  z-index: 10;
+  right: -200px;
+  top: 150px;
+  height: 100px;
+  width: 300px;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s; }
+  .contact-fixed .phone-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    left: 20px; }
+    .contact-fixed .phone-circle p {
+      margin: 0; }
+  .contact-fixed .phone-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    right: 50px; }
+    .contact-fixed .phone-container p {
+      margin: 0; }
+
+.contact-fixed:hover {
+  right: 0; }
+  .contact-fixed:hover .phone-container {
+    display: flex; }
+
 @media (max-width: 768px) {
   .item-heading,
   .section-heading {
