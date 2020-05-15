@@ -25,7 +25,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all .2s; }
+  transition: all .2s;
+  box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
   .contact-fixed .phone-circle {
     display: flex;
     justify-content: center;
@@ -33,9 +34,11 @@
     width: 30%;
     margin: 0;
     position: absolute;
-    left: 20px; }
+    left: 10px; }
     .contact-fixed .phone-circle p {
       margin: 0; }
+    .contact-fixed .phone-circle .phone-icon {
+      color: #006eff; }
   .contact-fixed .phone-container {
     width: 60%;
     display: flex;
@@ -45,12 +48,17 @@
     position: absolute;
     right: 50px; }
     .contact-fixed .phone-container p {
-      margin: 0; }
+      font: 1.3rem;
+      margin: 0;
+      color: white; }
 
 .contact-fixed:hover {
   right: 0; }
   .contact-fixed:hover .phone-container {
     display: flex; }
+
+.main-hr {
+  border: 1px solid #99d320; }
 
 @media (max-width: 768px) {
   .item-heading,
@@ -118,13 +126,11 @@
   .navbar .navbar-brand {
     width: 50%; } }
 
-#hero #carouselExampleIndicators {
-  margin-bottom: 20px; }
-
 #offer {
   min-height: 100vh;
   background: #39332c;
-  background: radial-gradient(circle, #39332c 0%, rgba(108, 50, 112, 0.686712) 0%, #5f6caf 100%); }
+  background: radial-gradient(circle, #39332c 0%, rgba(108, 50, 112, 0.686712) 0%, #5f6caf 100%);
+  padding-bottom: 20px; }
   #offer .offer-container {
     margin-top: 10px; }
   #offer .offer-item {
@@ -136,10 +142,10 @@
     align-items: center;
     justify-content: center;
     height: 60px;
-    margin-bottom: 10px;
+    margin-top: 10px;
     box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75);
     position: relative; }
-  #offer .offer-item:last-of-type {
+  #offer .offer-extended:last-of-type {
     margin-bottom: 20px; }
   #offer .offer-item:first-of-type {
     margin-top: 20px; }
@@ -203,10 +209,20 @@
   box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
 
 #about {
-  padding: 10px; }
+  padding: 10px;
+  background-image: url(../img/roof-truss-3339206_1920.jpg);
+  background-position: center;
+  background-attachment: fixed; }
+  #about .about-container {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 5px; }
 
 #main_footer {
-  background-color: rgba(0, 0, 0, 0.048); }
+  background-color: black;
+  color: white; }
   #main_footer .main_footer__container {
     display: flex;
     flex-wrap: wrap;

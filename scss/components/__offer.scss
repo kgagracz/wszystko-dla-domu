@@ -4,6 +4,7 @@
     min-height: 100vh;
     background: rgb(57,51,44);
     background: radial-gradient(circle, rgba(57,51,44,1) 0%, rgba(108,50,112,0.6867121848739496) 0%, rgba(95,108,175,1) 100%);
+    padding-bottom: 20px;
     .offer-container {
         margin-top: 10px;
     }
@@ -16,11 +17,11 @@
         align-items: center;
         justify-content: center;
         height: 60px;
-        margin-bottom: 10px;
+        margin-top: 10px;
         box-shadow: $shadow;
         position: relative;
     }
-    .offer-item:last-of-type {
+    .offer-extended:last-of-type {
         margin-bottom: 20px;
     }
     .offer-item:first-of-type {
