@@ -63,7 +63,13 @@
 @media (max-width: 768px) {
   .item-heading,
   .section-heading {
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+  .contact-fixed {
+    height: 70px;
+    width: 200px;
+    right: -130px; }
+    .contact-fixed .phone-container {
+      margin-right: -50px; } }
 
 .navbar {
   height: 100vh;
@@ -126,6 +132,11 @@
   .navbar .navbar-brand {
     width: 50%; } }
 
+#hero #carouselExampleIndicators {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 #offer {
   min-height: 100vh;
   background: #39332c;
@@ -176,49 +187,48 @@
     box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
     #offer .offer-list-container .offer-extended {
       padding: 20px; }
+    #offer .offer-list-container .offer-extended:last-of-type {
+      list-style: none; }
 
-#contact .address-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px 9px; }
-  #contact .address-container .address {
-    background-color: #c8c8c8;
-    margin: 0;
-    padding: 20px;
+#contact {
+  background-color: #c99ef1; }
+  #contact .address-container {
     display: flex;
-    flex-wrap: wrap; }
-    #contact .address-container .address p {
-      margin: 0; }
-    #contact .address-container .address .phone-icon {
-      margin: 0 5px 0 0; }
-    #contact .address-container .address .phone-link {
-      width: 100%; }
-  #contact .address-container .map {
-    border: none;
-    padding: 0;
-    height: 100%; }
-
-#contact .form-row {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 -5px 1rem -5px; }
-
-#contact .btn {
-  width: 30%;
-  box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 9px; }
+    #contact .address-container .address {
+      background-color: #c8c8c8;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      #contact .address-container .address p {
+        margin: 0; }
+      #contact .address-container .address .phone-icon {
+        margin: 0 5px 0 0; }
+      #contact .address-container .address .phone-link {
+        width: 100%; }
+    #contact .address-container .map {
+      border: none;
+      padding: 0;
+      height: 100%; }
+  #contact .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px 1rem -5px; }
+  #contact .btn {
+    width: 30%;
+    box-shadow: 6px 7px 24px -6px rgba(0, 0, 0, 0.75); }
 
 #about {
-  padding: 10px;
-  background-image: url(../img/roof-truss-3339206_1920.jpg);
-  background-position: center;
-  background-attachment: fixed; }
+  background-color: #c99ef1; }
   #about .about-container {
     font-size: 20px;
-    color: white;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.356);
-    border-radius: 5px; }
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%; }
 
 #main_footer {
   background-color: black;

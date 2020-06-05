@@ -1,4 +1,9 @@
 @import "../_variables";
 
 #hero {
+    #carouselExampleIndicators {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

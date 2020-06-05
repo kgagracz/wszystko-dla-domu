@@ -79,4 +79,12 @@
     .section-heading {
         font-size: 1.1rem;
     }
+    .contact-fixed {
+        height: 70px;
+        width: 200px;
+        right: -130px;
+        .phone-container{
+                margin-right: -50px;
+        }
+    }
 }

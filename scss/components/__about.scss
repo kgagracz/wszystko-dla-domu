@@ -1,17 +1,11 @@
 @import "../_variables";
-
 #about {
-    padding: 10px;
-    background-image: url(../img/roof-truss-3339206_1920.jpg);
-    // background-color: rgb(214, 193, 207);
-    background-position: center;
-    background-attachment: fixed;
-
+    background-color: rgb(201, 158, 241);
     .about-container {
         font-size: 20px;
-        color: white;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.356);
+        color: black;
+        padding: 30px;
         border-radius: 5px;
+        width: 100%;
     }
 }
